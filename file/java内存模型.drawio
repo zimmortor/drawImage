@@ -1,1 +1,52 @@
-<mxfile host="app.diagrams.net" modified="2022-02-27T08:38:33.796Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36 Edg/98.0.1108.62" version="16.6.4" etag="_RXpts5Bc0ESINHmNKlI" type="github"><diagram id="niZ9yr3Gl-5H2q7er0xa">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-02-27T09:45:10.315Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36 Edg/98.0.1108.62" etag="w2D5Aku8cFoxa9hF6Kz6" version="16.6.4" type="github">
+  <diagram id="niZ9yr3Gl-5H2q7er0xa" name="第 1 页">
+    <mxGraphModel dx="1038" dy="556" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="poduAv2zdAPjBIURBmeU-13" value="本地内存" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="120" y="215" width="500" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="poduAv2zdAPjBIURBmeU-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="poduAv2zdAPjBIURBmeU-2" target="poduAv2zdAPjBIURBmeU-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="poduAv2zdAPjBIURBmeU-2" value="线程A" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="195" y="115" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="poduAv2zdAPjBIURBmeU-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.157;entryY=-0.007;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="poduAv2zdAPjBIURBmeU-3" target="poduAv2zdAPjBIURBmeU-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="poduAv2zdAPjBIURBmeU-3" value="共享变量副本" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="180" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="poduAv2zdAPjBIURBmeU-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.843;entryY=0.033;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="poduAv2zdAPjBIURBmeU-4" target="poduAv2zdAPjBIURBmeU-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="poduAv2zdAPjBIURBmeU-4" value="&lt;span&gt;共享变量副本&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="440" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="poduAv2zdAPjBIURBmeU-5" value="主内存" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="180" y="380" width="380" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="poduAv2zdAPjBIURBmeU-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="poduAv2zdAPjBIURBmeU-6" target="poduAv2zdAPjBIURBmeU-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="poduAv2zdAPjBIURBmeU-6" value="线程B" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="455" y="115" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="poduAv2zdAPjBIURBmeU-14" value="共享变量" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="410" width="75" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="poduAv2zdAPjBIURBmeU-15" value="共享变量" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="462.5" y="410" width="75" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="poduAv2zdAPjBIURBmeU-16" value="共享变量" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="410" width="75" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="poduAv2zdAPjBIURBmeU-17" value="直接内存" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="337.5" y="380" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

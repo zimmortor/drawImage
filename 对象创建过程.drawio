@@ -1,1 +1,69 @@
-<mxfile host="app.diagrams.net" modified="2022-03-05T16:06:17.132Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36 Edg/99.0.1150.30" version="16.6.4" etag="DMfgBL_t6mVTv1JXp9fN" type="github"><diagram id="3hGGi2KenYFJIGx59sBQ">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-03-05T16:16:06.386Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36 Edg/99.0.1150.30" etag="WZ0wqvlAFsAODLDSeHc3" version="16.6.4" type="github">
+  <diagram id="3hGGi2KenYFJIGx59sBQ" name="第 1 页">
+    <mxGraphModel dx="1038" dy="556" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="_sPpC_jugNxrVp6EQbfQ-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_sPpC_jugNxrVp6EQbfQ-2" target="_sPpC_jugNxrVp6EQbfQ-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_sPpC_jugNxrVp6EQbfQ-2" value="JVM遇到一条字节码new指令" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="160" y="50" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_sPpC_jugNxrVp6EQbfQ-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_sPpC_jugNxrVp6EQbfQ-3" target="_sPpC_jugNxrVp6EQbfQ-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_sPpC_jugNxrVp6EQbfQ-3" value="常量池的类符号引用" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="185" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_sPpC_jugNxrVp6EQbfQ-5" value="定位" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="250" y="130" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_sPpC_jugNxrVp6EQbfQ-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="_sPpC_jugNxrVp6EQbfQ-6" target="_sPpC_jugNxrVp6EQbfQ-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_sPpC_jugNxrVp6EQbfQ-6" value="为对象分配内存" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="360" y="275" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_sPpC_jugNxrVp6EQbfQ-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_sPpC_jugNxrVp6EQbfQ-7" target="_sPpC_jugNxrVp6EQbfQ-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_sPpC_jugNxrVp6EQbfQ-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_sPpC_jugNxrVp6EQbfQ-7" target="_sPpC_jugNxrVp6EQbfQ-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_sPpC_jugNxrVp6EQbfQ-7" value="类是否被加载&lt;br&gt;解析初始化" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="177.5" y="270" width="135" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="_sPpC_jugNxrVp6EQbfQ-9" value="检查·" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="250" y="240" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_sPpC_jugNxrVp6EQbfQ-11" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="312.5" y="270" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_sPpC_jugNxrVp6EQbfQ-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="_sPpC_jugNxrVp6EQbfQ-12" target="_sPpC_jugNxrVp6EQbfQ-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="330" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_sPpC_jugNxrVp6EQbfQ-12" value="加载类" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="185" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_sPpC_jugNxrVp6EQbfQ-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="_sPpC_jugNxrVp6EQbfQ-17" target="_sPpC_jugNxrVp6EQbfQ-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_sPpC_jugNxrVp6EQbfQ-17" value="加上对象头" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="550" y="275" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_sPpC_jugNxrVp6EQbfQ-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_sPpC_jugNxrVp6EQbfQ-18" target="_sPpC_jugNxrVp6EQbfQ-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_sPpC_jugNxrVp6EQbfQ-18" value="对象初始化" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="740" y="275" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_sPpC_jugNxrVp6EQbfQ-21" value="新对象构造完成" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="920" y="275" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

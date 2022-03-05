@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-05T16:17:22.993Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36 Edg/99.0.1150.30" etag="-blhkxY89ebZtZBrKmLk" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-05T16:19:59.840Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36 Edg/99.0.1150.30" etag="cu2GRO23pz8phhmmKoR7" version="16.6.4" type="github">
   <diagram id="3hGGi2KenYFJIGx59sBQ" name="第 1 页">
     <mxGraphModel dx="1038" dy="556" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
@@ -48,23 +48,23 @@
         <mxCell id="_sPpC_jugNxrVp6EQbfQ-12" value="加载类" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="185" y="380" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="_sPpC_jugNxrVp6EQbfQ-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="_sPpC_jugNxrVp6EQbfQ-17" target="_sPpC_jugNxrVp6EQbfQ-18">
+        <mxCell id="_sPpC_jugNxrVp6EQbfQ-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_sPpC_jugNxrVp6EQbfQ-17" target="_sPpC_jugNxrVp6EQbfQ-21">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="_sPpC_jugNxrVp6EQbfQ-17" value="加上对象头" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="550" y="275" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="_sPpC_jugNxrVp6EQbfQ-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_sPpC_jugNxrVp6EQbfQ-18" target="_sPpC_jugNxrVp6EQbfQ-21">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="_sPpC_jugNxrVp6EQbfQ-18" value="对象初始化" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="740" y="275" width="120" height="60" as="geometry" />
+        <mxCell id="_sPpC_jugNxrVp6EQbfQ-17" value="对象创建成功" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="560" y="275" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="_sPpC_jugNxrVp6EQbfQ-21" value="新对象构造完成" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="920" y="275" width="120" height="60" as="geometry" />
+          <mxGeometry x="830" y="275" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="_sPpC_jugNxrVp6EQbfQ-23" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="245" y="350" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_sPpC_jugNxrVp6EQbfQ-24" value="&lt;span&gt;加上对象头&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="480" y="275" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_sPpC_jugNxrVp6EQbfQ-25" value="初始化（构造函数）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="700" y="280" width="120" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

@@ -1,1 +1,67 @@
-<mxfile host="app.diagrams.net" modified="2022-05-21T09:39:18.331Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36 Edg/101.0.1210.47" version="18.0.7" etag="sqnpwUCKWujFHgQZcSlJ" type="github"><diagram id="7han5nR4hqqQobrPiE4o">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-05-21T09:57:16.878Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36 Edg/101.0.1210.47" etag="mcR7e4sBKjXEsxZHDZFT" version="18.0.7" type="github">
+  <diagram id="7han5nR4hqqQobrPiE4o" name="第 1 页">
+    <mxGraphModel dx="1038" dy="556" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="c4q57S6f9A3WIPY_X_IW-20" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.75;dx=25.2;notch=0;fontSize=14;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="650" y="240" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="c4q57S6f9A3WIPY_X_IW-8" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.75;dx=25.2;notch=0;fontSize=14;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="420" y="230" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="c4q57S6f9A3WIPY_X_IW-9" value="获取缓存" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="385" y="230" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="c4q57S6f9A3WIPY_X_IW-2" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;请求&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="430" y="150" width="340" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="c4q57S6f9A3WIPY_X_IW-3" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Redis缓存&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="430" y="280" width="340" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="c4q57S6f9A3WIPY_X_IW-4" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="430" y="420" width="340" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="c4q57S6f9A3WIPY_X_IW-5" value="MySQL" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="475" y="435" width="40" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="c4q57S6f9A3WIPY_X_IW-6" value="&lt;span style=&quot;&quot;&gt;MySQL&lt;/span&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="620" y="435" width="40" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="c4q57S6f9A3WIPY_X_IW-7" value="&lt;span style=&quot;&quot;&gt;MySQL&lt;/span&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="690" y="435" width="40" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="c4q57S6f9A3WIPY_X_IW-10" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.75;dx=25.2;notch=0;fontSize=14;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="420" y="370" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="c4q57S6f9A3WIPY_X_IW-12" value="缓存无数据，&lt;br&gt;请求去数据库获取" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="325" y="350" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="c4q57S6f9A3WIPY_X_IW-14" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.75;dx=25.2;notch=0;fontSize=14;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="395" y="305" width="210" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="c4q57S6f9A3WIPY_X_IW-15" value="击穿" style="ellipse;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="475" y="297.5" width="50" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="c4q57S6f9A3WIPY_X_IW-16" value="缓存过期，短时间内&lt;br&gt;大量缓存直达数据库" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="500" y="230" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="c4q57S6f9A3WIPY_X_IW-19" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.75;dx=25.2;notch=0;fontSize=14;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="650" y="370" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="c4q57S6f9A3WIPY_X_IW-21" value="获取数据" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="700" y="370" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="c4q57S6f9A3WIPY_X_IW-22" value="返回数据" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="690" y="250" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="c4q57S6f9A3WIPY_X_IW-23" value="更新缓存" style="ellipse;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="657.5" y="300" width="65" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="c4q57S6f9A3WIPY_X_IW-25" value="&lt;span style=&quot;&quot;&gt;MySQL&lt;/span&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="550" y="435" width="40" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
